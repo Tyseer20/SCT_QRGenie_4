@@ -1,0 +1,15 @@
+name: qr_genie
+description: A simple Flutter app to scan and generate QR codes.
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^1.0.1
+  permission_handler: ^11.0.0
+
+flutter:
+  uses-material-design: true
